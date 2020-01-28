@@ -1,5 +1,4 @@
 const fetch = require("node-fetch");
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 const getPeoplePromise = fetch => {
   return fetch("https://swapi.co/api/people")
